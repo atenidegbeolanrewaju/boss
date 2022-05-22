@@ -1,12 +1,17 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import '../index.css'
+import HomeD from './Home/HomeD'
+import FAQ from './Home/FAQ'
+import Footer from './Navbar/Footer'
 
 const Home = () => {
   return (
     <div>
         <Navbar />
-        <h1 className='hh'>Home</h1>
+        <HomeD />
+        <FAQ />
+        <Footer />
     </div>
   )
 }

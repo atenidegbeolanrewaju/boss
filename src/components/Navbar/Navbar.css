@@ -1,21 +1,36 @@
-
-
-   .dashboard {
+.dashboard {
     position: relative;
     width: 100%;
     background-color: skyblue;
-  }
+    max-width: 1200px; }
+
+.Nav-container {
+  position: fixed;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    background-color: black;
+    z-index: 1;
+    
+}
   
 .logo {
     color: skyblue
 }
 
-  .Nav-bar {
+.Nav-bar {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 3%;
     background-color: black;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto
   }
   
   .Nav-bar-items {
@@ -24,17 +39,6 @@
     padding: 0 10px;
   }
   
-  .Nav-link {
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-    color: #edeeec;
-    font-size: 12px;
-
-  }
-  
-  .Nav-link:hover {
-    color: rgb(208, 10, 208)
-  }
   
   .Nav-menu li{
     display: inline-block;
@@ -47,18 +51,32 @@
     color: #edeeec
   }
 
-  .Nav-social {
-    
-  }
 
   .Nav-social:hover {
     background-color: skyblue;
-    color: #edeeec
+    color: #edeeec;
+    /* padding: 10px 10px; */
    }
+
+   .fa-discord {
+    color: #edeeec
+  }
+
+  .fa-discord:hover {
+    color:#FF00B5
+  }
+
+  .fa-twitter {
+    color: #edeeec
+  }
+
+  .fa-twitter:hover{
+    color:#FF00B5
+  }
+
 
   .social-icon {
    
-    
   }
 
 
@@ -70,7 +88,7 @@
     display: none
   }
 
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:868px) {
     .Nav-bar-items {
       display: none;
     }
@@ -119,11 +137,18 @@
         background-color: skyblue;
     }
 
+    .Nav-container {
+      position: fixed;
+   
+    display: inline-block;
+    
+    }
+
     .nav-dropdown {
-      display: flex;
+      display:flex ;
       flex-direction: column;
       flex-wrap: wrap;
-      position:relative;
+      position: relative;
       width: 100vw;
       height: 100%;
       padding: 5px 0;
@@ -131,6 +156,8 @@
     }
 
     .nav-dropdown ul li {
+      /* display: flex; */
+      position: relative;
       padding: 8px 30px;
       margin: 0 16px;
       text-decoration: none;
@@ -143,12 +170,23 @@
     }
 
     .Nav-link {
-      color: rgb(208, 10, 208);
+      color: skyblue;
       font-size: 18px;
+      text-decoration: none;
     }
+    
 
     .Nav-link:hover {
      color: skyblue
+    }
+
+    .Nav-link-active {
+      padding: 0 ;
+      transition: all 0.5s ease;
+      color: skyblue;
+      z-index: 1;
+      text-decoration: none;
+      font-size: 18px;
     }
 
     .Nav-social {
@@ -157,7 +195,51 @@
     }
 
     .Nav-social:hover {
-     background-color: white;
+     background-color: #FF00B5;
      color: #edeeec
     }
+
+    .fa-discord{
+      color: skyblue
+    }
+
+    .fa-discord:hover {
+      color: skyblue
+    }
+
+    .fa-twitter{
+      color: skyblue;
+    }
+
+    .fa-twitter:hover {
+      color: skyblue
+    }
   }
+
+
+ @media screen and (min-width:868px) {
+
+  .Nav-link {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: #edeeec;
+    font-size: 18px;
+
+  }
+  
+  .Nav-link:hover {
+    color: #FF00B5
+  }
+
+  .Nav-link-active {
+    padding: 0 3px;
+    background-color: skyblue;
+    transition: all 0.5s ease;
+    color: #FF00B5;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 16px;
+    padding:  15px 15px;
+  }
+   
+ } 

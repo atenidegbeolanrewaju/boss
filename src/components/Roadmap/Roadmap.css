@@ -1,0 +1,251 @@
+.roadmap {
+    position:relative;
+    width: 100%; 
+    /* height: 210vh; */
+    overflow: hidden;
+    display: flex;
+    /* justify-content: center; */
+    /* padding: 30px 3%; */
+    /* align-items: center; */
+    /* align-content: center; */
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 0px;
+    /* flex-direction: column;   */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 2050px
+}
+
+.roadmap-container {
+    position: relative;
+    /* z-index:0; */
+    margin-top: 100px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left:auto;  
+    width: 100%;
+    height: auto;
+}
+
+.title-large {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: #FF00B5;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.h3-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #FF00B5;
+    font-size: 70px;
+    line-height: 60px;
+    font-weight: 600;
+    letter-spacing: -.03em;
+}
+
+.timeline-container {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-container::after {
+    position: absolute;
+    content: ' ';
+    width: 3px;
+    left:calc(50% - 2px);
+    height: 100%;
+    background-image: linear-gradient(to bottom, #FF00B5, #5c0543);   
+}
+
+.timeline-container ul {
+    list-style: none;
+}
+
+.timeline-container ul li { 
+    width: 50%;
+    height: auto;
+    padding: 15px 20px;
+    background-color: #edeeec;
+    box-shadow: 1px 1px 25px rgba(0,0,0,0.384);
+    border-radius:10px;
+    margin-bottom: 25px;
+}
+
+.para-tick {
+    display: flex;
+}
+
+.timeline-container ul li:nth-child(even) {
+    float: left;
+    clear: right;
+    transform: translateX(-20px);
+    /* text-align: right; */
+}
+
+.timeline-container ul li:nth-child(odd) {
+    float: right; 
+    clear: left;
+    transform: translateX(20px);
+
+}
+
+.timeline-container ul li:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.title-h2 {
+    /* font-size: 16px; */
+    font-weight: 600;
+    color: #FF00B5
+
+}
+
+.title-h4 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    color: #5c0543;
+    margin-top: 10px;
+
+}
+
+.para {
+    font-size: 16px;
+    margin: 7px 0;
+    line-height: 20px;
+
+
+}
+
+.fa-solid {
+    color: #FF00B5;
+    margin: 8px 0;
+    margin-right: 6px;
+
+}
+
+.fa-regular {
+    color: #FF00B5;
+    margin: 8px 0;
+    margin-right: 6px;
+}
+
+.date {
+    position: absolute;
+    top: -45px;
+    background-image: linear-gradient(to bottom, #FF00B5, #5c0543);   
+    width: 100px;
+    border-radius: 25px;
+    left: 20px;
+    height: 35px;
+    color: #eeedec;
+    display: grid;
+    place-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #FF00B5;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.circle::after {
+    content: " ";
+    width: 25px;
+    height:25px;
+    background-color: #5c0543;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.timeline-container ul li:nth-child(odd) .circle {
+    right: auto;
+    left: -35px; 
+}
+
+.timeline-container ul li:nth-child(even) .circle {
+    left: auto;
+    right: -35px; 
+}
+
+@media screen and (max-width:915px) {
+
+    /* .roadmap {
+        height: 200vh;
+    } */
+
+    .timeline-container {
+        width: 70%;
+    }
+
+    .timeline-container ul li { 
+        width: 100%;
+        float: none;
+        clear:none;
+        margin-bottom: 80px;
+    }
+
+    .timeline-container ul li:nth-child(odd) {
+        transform: translateX(0);
+    } 
+
+    .timeline-container ul li:nth-child(even) {
+        transform: translateX(0);
+    }
+
+    .timeline-container ul li:nth-child(even) .circle {
+        right: auto;
+        left: -43.5px; 
+    }
+
+    .timeline-container ul li:nth-child(odd) .circle {
+        right: auto;
+        left: -43.5px; 
+    }
+
+    .timeline-container::after {
+         left: -30px;
+    }
+
+     
+}
+
+@media screen and (max-width:760px) and (min-width:550px) {
+    .roadmap {
+        height: 215vh
+    }
+}
+
+@media screen and (max-width:550px) and (min-width:410px) {
+    .roadmap {
+        height: 250vh
+    }
+}
+
+
+@media screen and (max-width:410px) {
+    .roadmap {
+        height: 300vh
+    }
+}
+

@@ -1,0 +1,292 @@
+.Home-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    max-width: 1200px;
+    margin: auto;
+    bottom: 0px;
+    top: 0
+    /* top:50px */
+}
+
+.Home-header {
+    display: inline-block;
+    justify-content: center; 
+    align-items: center; 
+    align-content: center;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    padding: 20px 5%;
+    /* padding-top: 150px; */
+    padding-bottom: 0px;
+}
+
+.community {
+    padding-right: 50px;
+    /* padding-top: 50px; */
+}
+
+.community-info {
+   padding-top: 25%;
+}
+
+.project-header {
+    margin-top: 0;
+    color: #FF00B5;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: -.03em;
+
+}
+
+.project-para {
+    display: block;
+    color: black;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.buy-div {
+    /* position: absolute; */
+    display:flex;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+
+}
+
+.buy-btn {
+    text-decoration: none;
+    /* z-index:1; */
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius:20px;
+    background-image: linear-gradient(180deg, #FF00B5, #a13181 21%, skyblue 77%, rgb(5, 84, 115)  );
+    opacity: 1;
+}
+
+
+.fa-angle-right {
+    padding-left: 10px;
+}
+
+.text {
+    color: black;
+    font-size: 17px;
+}
+
+.community-image {
+    align-self: center;
+    justify-self: center;
+    margin-left: 50px;
+}
+
+.image-class {
+    width:100%;
+    min-width:440px;
+    max-width:450px
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.Home-header-wrapper {
+    display: flex;
+    padding-top: 150px;
+}
+
+.bottom-content {
+    display: flex;
+    max-width: 800px;
+    margin-top:100px;
+    margin-right: auto;
+    margin-left:auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.market-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.market-logo {
+    display: block;
+    max-width: 150px;
+    margin-right: 60px;
+    margin-left: 60px
+}
+
+.trust-text {
+    margin-top:40px;
+    font-weight:500;
+    text-align: center;
+}
+
+@media screen and (max-width:915px) {
+    .community {
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .Home-header {
+        padding-top: 0
+    }
+
+    .Home-header-wrapper {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        padding-top: 70px;
+    }
+
+    .community-info{
+        padding-top: 100px
+    }
+    
+    .community-image {
+        margin-top: 20px;
+        margin-left: 0;
+
+    }
+
+    .project-header {
+        text-align: center;
+    }
+
+    .project-para {
+        text-align: center;
+    }
+
+    .buy-div {
+        justify-content: center;
+    }
+
+    .image-class {
+        display: flex;
+        margin: auto;
+    }
+
+}
+
+/* $desktop:1200px;
+$laptop:1024px;
+$tablet: 768px;
+$phone:  480px */
+
+/* @media screen and (max-width:1200px) and (min-width:768px) {
+  
+}
+
+@media screen and (max-width:768px) and (min-width:480px) {
+  
+} 
+
+@media screen and (max-width:480px) and (min-width:350px) {
+  
+} */
+
+@media screen and (max-width:560px) and (min-width:430px) {
+    .community {
+      margin-left: 40px
+    }
+
+    .project-header {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .project-para {
+        display: block;
+        color: black;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .image-class {
+        width:100%;
+        min-width:330px;
+        max-width:350px
+    }
+  
+  }
+
+  @media screen and (max-width:430px)   {
+
+    .community-info {
+        padding-top: 25%;
+        width: 100%;
+        margin: auto;
+     }
+
+    .community {
+      margin-left: 50px
+    }
+
+    .project-header {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .project-para {
+        padding-top: 10px;
+        display: block;
+        color: black;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .buy-div {
+        display:grid;
+        padding-top: 0;
+    }
+
+    .buy-btn {
+        margin-top: 10%;
+    }
+
+    .image-class {
+        width:100%;
+        min-width:200px;
+        max-width:250px;
+        padding-top: 15px;
+    }
+
+
+    .market-info {
+        display: grid;
+    }
+
+    .market-logo {
+        margin-top: 10%;
+    }
+
+    .bottom-content {
+        display: flex;
+        max-width: 800px;
+        margin-top:40px;
+        /* margin-right: auto;
+        margin-left:auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+  
+  }
