@@ -21,7 +21,7 @@ const RoadmapD = () => {
                     </div>
                     <div className='para-tick'>
                       <i className="fa-solid fa-circle-check"></i>
-                      <p className='para'>Create a Collection of 600 BABY DON NFT</p>
+                      <p className='para'>Create a collection of 600 DeDon Baby NFT</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-solid fa-circle-check"></i>
@@ -35,11 +35,7 @@ const RoadmapD = () => {
                       <i className="fa-solid fa-circle-check"></i>
                       <p className='para'>Create a Staking Platform for Holders to earn $DON Token </p>
                     </div>
-                    <div className='para-tick'>
-                      <i className="fa-solid fa-circle-check"></i>
-                      <p className='para'>P2E Platform</p>
-                    </div>
-                    <div className='para-tick'>
+                  <div className='para-tick'>
                       <i className="fa-solid fa-circle-check"></i>
                       <p className='para'>Official Website</p>
                     </div>
@@ -88,54 +84,82 @@ const RoadmapD = () => {
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>Activate all Token Utilities created during BABY PHASE</p>
+                      <p className='para'>Stake DeDon Baby NFT Collection for $DON Token</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>Partnership with influential Games Demo for NFT HOLDERS</p>
+                      <p className='para'>DeDON Executive DOA Activation</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>Raffling and Auction Platforms</p>
+                      <p className='para'>$15000 Fund Support to DeDon NFT Collections holders starting off their own Projects</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>2D NFT Creation Services </p>
+                      <p className='para'>Free Sales Bot and Listing Bots for DeDon NFT Collection Holder launching their projects</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>2D NFT Creation Service for DeDon NFT Collection Holders launching their projects </p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>  
-                      <p className='para'>Staking services</p>
+                      <p className='para'>Staking Services for DeDon NFT Collection Holders launching their projects</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>  
-                      <p className='para'>Creation and preview collection TEEN DON NFT</p>
+                      <p className='para'>Launchpad and marketing Services for DeDon NFT Collection Holders launching their projects</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>Node Token Utility preview</p>
+                      <p className='para'>Banking Operation Kicks starts</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>30% Mint Proceed Transferred to Bank Wallet to Start off</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>50% Artist Tax from all Secondary Market Place Will be sent to Bank wallet</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>Partnership with influential advertising platforms</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>Raffling Platform</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>Whitelist Raffle Platform for NFT Project mint</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>Casino Game Platform</p>
+                    </div>
+                    <div className='para-tick'>
+                      <i className="fa-regular fa-circle"></i>
+                      <p className='para'>Node Token utility Preview</p>
                     </div>
                   </div>
                   <div className='title-para'>
                     <h4 className='title-h4'>TEEN STEP</h4>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>Mint TEEN DON  Collection and Airdrop to BABY DON holders/stakers in fixed ratio</p>
+                      <p className='para'>Mint DeDon NFT Collection and Airdrop to BABY DeDon hodler/stakers in fixed ratio of 3:1</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>NFT Holders can enroll their BABIES and TEEN DON NFT in Mini-Games to earn more</p>
+                      <p className='para'>Blind Auction Platform</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>List Token on Coingekco</p>
+                      <p className='para'>Node Token utility activated</p>
                     </div>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>Node Token Utility activated</p>
-                    </div>
-                    <div className='para-tick'>
-                      <i className="fa-regular fa-circle"></i>
-                      <p className='para'>DONanimation DApp preview</p>
+                      <p className='para'>DONimation DApp preview</p>
                     </div>
                   </div>
                   <span className='circle'></span>
@@ -146,7 +170,7 @@ const RoadmapD = () => {
                   <div className='title-para'>
                     <div className='para-tick'>
                       <i className="fa-regular fa-circle"></i>
-                      <p className='para'>Release of Further Update: Additional features to be released including Comic books, Dapps Baby Store, Ageing System and Node Burning.</p>
+                      <p className='para'>Release of Further Update: Additional features to be released including DApps Baby Store and Node Burning.</p>
                     </div>
                     <h4 className='title-h4'>MORE COMING SOON</h4>
                   </div>

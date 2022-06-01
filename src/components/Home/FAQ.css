@@ -1,30 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Antic+Slab&display=swap');
+
 .faq {
     position:relative;
     width: 100%; 
-    height: 1300px;
+    height: auto;
     overflow: hidden;
     display: flex;
-    /* justify-content: center; */
-    /* padding: 30px 3%; */
-    /* align-items: center; */
-    /* align-content: center; */
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
-    margin-bottom: 0px;
-    /* flex-direction: column;   */
-    padding-top: 0px;
-    padding-bottom: 0px;
+    /* margin-bottom: 0px;
+    padding-top: 0px; */
+    /* padding-bottom: 0px; */
+    background-color: rgb(151, 220, 247);
 }
+
 
 .faq-container {
     position: relative;
-    /* z-index:0; */
-    max-width: 800px;
+    max-width: 1000px;
     margin-right: auto;
     margin-left:auto;  
-    max-height: 80vh;
-    
-     
+    height: auto;
+    padding-bottom: 3.5rem ;
+    width: 100%;
 }
 
 .title-wrapper {
@@ -33,9 +31,6 @@
     margin-bottom: 80px;
     margin-left: auto;
     text-align: center;
-
-  
-
 }
 
 .title-large {
@@ -60,7 +55,6 @@
 .wrapper {
     display: flex;
     height: auto;
-    width: 800px;
     justify-content: center;
     margin:auto;
     bottom: 30px;
@@ -68,9 +62,7 @@
 }
 
 .accordion {
-    /* margin-top: -5px; */
     width: 150%;
-    
 }
 
 .item {
@@ -79,6 +71,9 @@
     padding: 10px 20px;
     cursor: pointer; 
     position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .title {
@@ -86,8 +81,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0 
+    padding: 10px 0;
+    background-color: #fb89d9; 
     
+}
+
+.title-h4_ {
+    font-family: 'Alegreya', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #28021e;
+}
+
+.title-p {
+    font-family: 'Antic Slab', serif;
+    font-weight: 500;
+
 }
 
 .content {
@@ -100,17 +109,17 @@
     height: auto;
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
+    line-height: 25px;
 }
 
 @media screen and (max-width:915px) {
     .faq-container {
-        width: 600px;    
+        margin: 0 15px
     }
 
     .wrapper {
         display: flex;
         height: auto;
-        width: 600px;
         justify-content: center;
         margin:auto;
     }
@@ -129,23 +138,18 @@
 
 @media screen and (max-width:640px) and (min-width:430px) {
 
-    .faq {
-        height: 1400px;
-    }
-    .faq-container {
-        width: 370px;    
+    faq-container {
+        margin: 0 15px
     }
 
     .wrapper {
         display: flex;
         height: auto;
-        width: 370px;
         justify-content: center;
         margin:auto;
     }
 
     .title-large {
-        margin-bottom: 5px;
         font-size: 16px;
     } 
 
@@ -157,18 +161,14 @@
 
 @media screen and (max-width:430px) {
 
-    .faq {
-        height: 1450px;
-    }
-
     .faq-container {
-        width: 250px;    
+        margin: 0 15px
+
     }
 
     .wrapper {
         display: flex;
         height: auto;
-        width: 250px;
         justify-content: center;
         margin:auto;
     }

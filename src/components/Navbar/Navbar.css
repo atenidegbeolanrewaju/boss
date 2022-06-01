@@ -2,7 +2,8 @@
     position: relative;
     width: 100%;
     background-color: skyblue;
-    max-width: 1200px; }
+    max-width: 1200px; 
+  }
 
 .Nav-container {
   position: fixed;
@@ -12,9 +13,22 @@
     justify-content: center;
     align-items: center; 
     align-content: center;
-    background-color: black;
+    background-color: black ;
     z-index: 1;
     
+}
+
+#header{
+  background: url(/Banner.jpg);
+  min-height: 100vh;
+  min-width: 100%;
+  /* height: auto; */
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* display: block; */
+ 
 }
   
 .logo {
@@ -58,6 +72,8 @@
     /* padding: 10px 10px; */
    }
 
+
+
    .fa-discord {
     color: #edeeec
   }
@@ -91,6 +107,8 @@
   @media screen and (max-width:868px) {
     .Nav-bar-items {
       display: none;
+    /* padding: 20px 8%; */
+
     }
 
     .hamburger {
@@ -113,7 +131,7 @@
         border-radius: 5px;
 
         transform-origin: 0 0;
-        transition: 0.4s;
+        transition: 0.5s;
     }
 
     .hamburger:hover span:nth-child(2) {
@@ -223,7 +241,7 @@
     text-decoration: none;
     transition: all 0.3s ease 0s;
     color: #edeeec;
-    font-size: 18px;
+    font-size: 18px; 
 
   }
   
@@ -238,8 +256,15 @@
     color: #FF00B5;
     z-index: 1;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     padding:  15px 15px;
   }
    
  } 
+
+ @media (max-width: 1300px) {
+  .Nav-container {
+    /* opacity: 0.5; */
+    position: relative
+  }
+ }

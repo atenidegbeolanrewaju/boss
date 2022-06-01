@@ -1,4 +1,11 @@
 .footer {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  /* background-color: rgb(168, 223, 245); */
+}
+
+.footer-base {
   position: fixed;
   /* padding-top: 25px; */
   bottom: 0 ;
@@ -12,6 +19,38 @@
   align-content: center;
   text-align: center;
   background-color: #FF00B5
+}
+
+
+.market-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trust-text {
+  margin-top:40px;
+  font-weight:500;
+  text-align: center;
+  color:#FF00B5
+}
+
+.hr-styl {
+  border: solid #28021e 0.5px;
+}
+
+.bottom-content {
+  display: flex;
+  max-width: 800px;
+  margin-top:0px;
+  margin-bottom: 70px;
+  padding:30px 0;
+  margin-right: auto;
+  margin-left:auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .Nav-container-footer {
@@ -52,3 +91,81 @@
     font-weight: 700;
   }
 
+  @media screen and (max-width:560px) and (min-width:430px) {
+    .community {
+      margin-left: 40px
+    }
+
+    .project-header {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .project-para {
+        display: block;
+        color: black;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .image-class {
+        width:100%;
+        min-width:330px;
+        max-width:350px
+    }
+  
+  }
+
+  @media screen and (max-width:430px)   {
+
+    .community-info {
+        padding-top: 25%;
+        width: 100%;
+        margin: auto;
+     }
+
+    .community {
+      margin-left: 50px
+    }
+
+    .project-header {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .project-para {
+        padding-top: 10px;
+        display: block;
+        color: black;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .buy-div {
+        display:grid;
+        padding-top: 0;
+    }
+
+    .buy-btn {
+        margin-top: 10%;
+    }
+
+    .image-class {
+        width:100%;
+        min-width:200px;
+        max-width:250px;
+        padding-top: 15px;
+    }
+
+
+    .market-info {
+        display: grid;
+    }
+
+    .market-logo {
+        margin-top: 10%;
+    }
+
+   
+  
+  }

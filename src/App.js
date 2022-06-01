@@ -13,10 +13,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route exact path='/Roadmap' element={<Roadmap />} />
-          <Route exact path='/Team' element={<Team />} />
-          <Route exact path='/Tokenomics' element={<Tokenomics />} />
-          <Route exact path='/Whitepaper' element={<Whitepaper />} />
+          <Route path='/Roadmap' element={<Roadmap />} />
+          <Route path='/Team' element={<Team />} />
+          <Route path='/Tokenomics' element={<Tokenomics />} />
+          <Route path='/Whitepaper' element={<Whitepaper />} />
         </Routes>
       </BrowserRouter>
   );

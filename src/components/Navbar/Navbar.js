@@ -40,22 +40,23 @@ const Navbar = () => {
     );
   
     return (
-      <div className='Nav-container'>
-        <nav className='Nav-bar'>
-          <div className='Nav-logo'>
-            <h2 className='logo'>BBFY</h2>
-          </div>
-          <Navbar_menu />
-          <button className={activeHam ? 'hamburger active-hamburger' : 'hamburger'} 
-                  onClick = {() => setActiveHam(!activeHam)}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          
-        </nav>
-        {activeHam && <div className='nav-dropdown'>{menuItems}</div>}
-      </div>
+      
+        <div className='Nav-container'>
+          <nav className='Nav-bar'>
+            <div className='Nav-logo'>
+              <h2 className='logo'>BBFY</h2>
+            </div>
+            <Navbar_menu />
+            <button className={activeHam ? 'hamburger active-hamburger' : 'hamburger'} 
+                    onClick = {() => setActiveHam(!activeHam)}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            
+          </nav>
+          {activeHam && <div className='nav-dropdown'>{menuItems}</div>}
+        </div>
     )
   }
   

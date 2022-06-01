@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div>
         <Navbar />
-        <h1>Team</h1>
+        <h1>Team Team</h1>
         <Footer />
 
     </div>

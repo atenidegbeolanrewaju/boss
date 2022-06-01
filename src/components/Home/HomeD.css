@@ -1,7 +1,7 @@
 .Home-container {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -10,8 +10,24 @@
     max-width: 1200px;
     margin: auto;
     bottom: 0px;
-    top: 0
-    /* top:50px */
+    top: 0;
+}
+
+#header{
+    background: url(/Banner.jpg);
+    min-height: 100vh;
+    min-width: 100%;
+    height: auto;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    /* position:absolute */
+    /* display: block; */
+    /* margin-top: 0px */
+    /* z-index: 1; */
+   
 }
 
 .Home-header {
@@ -19,20 +35,25 @@
     justify-content: center; 
     align-items: center; 
     align-content: center;
-    margin-bottom: 100px;
-    margin-top: 15px;
-    padding: 20px 5%;
-    /* padding-top: 150px; */
-    padding-bottom: 0px;
+    padding: 0 5%;
+    padding-bottom: 0.5rem;
+}
+
+.Home-header-wrapper {
+    display: flex;
+    padding: 50px 0;
 }
 
 .community {
-    padding-right: 50px;
-    /* padding-top: 50px; */
+    /* padding-right: 50 */
+    padding-top: 0;
+            margin: 0px 50px;
+        /* justify-content: center;
+          align-items: center; */    
 }
 
 .community-info {
-   padding-top: 25%;
+   /* padding-top: 80px; */
 }
 
 .project-header {
@@ -46,9 +67,11 @@
 
 .project-para {
     display: block;
-    color: black;
+    color: #edeeec !important;
     font-size: 20px;
     line-height: 40px;
+   text-align: center;
+
 }
 
 .buy-div {
@@ -57,7 +80,7 @@
     margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    justify-content: flex-start;
+    justify-content: center
 
 }
 
@@ -66,20 +89,23 @@
     /* z-index:1; */
     display: flex;
     margin-right: 20px;
-    padding: 20px;
+    padding: 15px;
     border-radius:20px;
+    /* border : solid ; */
     background-image: linear-gradient(180deg, #FF00B5, #a13181 21%, skyblue 77%, rgb(5, 84, 115)  );
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 
 .fa-angle-right {
     padding-left: 10px;
+    ;
 }
 
 .text {
     color: black;
     font-size: 17px;
+    margin-top: 4px
 }
 
 .community-image {
@@ -100,28 +126,8 @@ img {
     display: inline-block
 }
 
-.Home-header-wrapper {
-    display: flex;
-    padding-top: 150px;
-}
 
-.bottom-content {
-    display: flex;
-    max-width: 800px;
-    margin-top:100px;
-    margin-right: auto;
-    margin-left:auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-.market-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .market-logo {
     display: block;
@@ -130,11 +136,7 @@ img {
     margin-left: 60px
 }
 
-.trust-text {
-    margin-top:40px;
-    font-weight:500;
-    text-align: center;
-}
+
 
 @media screen and (max-width:915px) {
     .community {
@@ -145,7 +147,7 @@ img {
     }
 
     .Home-header {
-        padding-top: 0
+        padding: 4.4rem 5%;
     }
 
     .Home-header-wrapper {
@@ -153,11 +155,11 @@ img {
         align-items: center;
         justify-content: center;
         align-content: center;
-        padding-top: 70px;
+        /* padding-top: 0px; */
     }
 
     .community-info{
-        padding-top: 100px
+        /* padding-top: 100px */
     }
     
     .community-image {
@@ -172,6 +174,8 @@ img {
 
     .project-para {
         text-align: center;
+    color: #edeeec
+
     }
 
     .buy-div {
@@ -214,7 +218,8 @@ $phone:  480px */
 
     .project-para {
         display: block;
-        color: black;
+        /* color: black; */
+        color: #edeeec;
         font-size: 17px;
         line-height: 30px;
     }
@@ -230,13 +235,21 @@ $phone:  480px */
   @media screen and (max-width:430px)   {
 
     .community-info {
-        padding-top: 25%;
+        /* padding-top: 25%; */
         width: 100%;
-        margin: auto;
+        /* margin: auto; */
+     }
+
+     .Home-header-wrapper{
+         justify-content: center;
      }
 
     .community {
-      margin-left: 50px
+      margin: 0px 50px;
+      /* justify-content: center;
+        align-items: center; */
+
+
     }
 
     .project-header {
@@ -245,9 +258,9 @@ $phone:  480px */
     }
 
     .project-para {
-        padding-top: 10px;
+        /* padding-top: 10px; */
         display: block;
-        color: black;
+    color: #edeeec;
         font-size: 15px;
         line-height: 30px;
     }
@@ -255,10 +268,14 @@ $phone:  480px */
     .buy-div {
         display:grid;
         padding-top: 0;
+        justify-content: center;
+        padding: 0 auto
+
     }
 
     .buy-btn {
         margin-top: 10%;
+    
     }
 
     .image-class {
@@ -277,16 +294,22 @@ $phone:  480px */
         margin-top: 10%;
     }
 
-    .bottom-content {
-        display: flex;
-        max-width: 800px;
-        margin-top:40px;
-        /* margin-right: auto;
-        margin-left:auto;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center; */
-    }
+   
   
+  }
+
+  @media (max-width: 1300px) {
+  #header {
+      background-position: center;
+      background-size: cover;
+      min-height: 60vw;
+      background-attachment: unset !important;
+      padding-top: 50px
+
+  }
+
+  .Home-header {
+    padding: 0;
+
+  }
   }
