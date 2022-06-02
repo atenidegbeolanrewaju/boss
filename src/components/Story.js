@@ -1,15 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
 import Footer from './Navbar/Footer'
+import StoryD from './Story/StoryD'
 
-const Tokenomics = () => {
+const Story = () => {
   return (
     <div>
         <Navbar />
-        <h1>Tokenomics</h1>
+        <StoryD />
         <Footer />
     </div>
   )
 }
 
-export default Tokenomics
+export default Story

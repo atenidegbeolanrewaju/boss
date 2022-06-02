@@ -11,7 +11,7 @@
     /* margin-bottom: 0px;
     padding-top: 0px; */
     /* padding-bottom: 0px; */
-    background-color: rgb(151, 220, 247);
+    background-color: black
 }
 
 
@@ -82,14 +82,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    background-color: #fb89d9; 
+    background-color: #fb89d9
     
 }
 
 .title-h4_ {
     font-family: 'Alegreya', serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #28021e;
 }
 
@@ -110,6 +110,8 @@
     max-height: 9999px;
     transition: all 0.5s cubic-bezier(1,0,1,0);
     line-height: 25px;
+    color: #edeeec;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width:915px) {

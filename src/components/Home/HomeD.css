@@ -246,10 +246,11 @@ $phone:  480px */
 
     .community {
       margin: 0px 50px;
-      /* justify-content: center;
-        align-items: center; */
+    }
 
-
+    .community-info{
+        height:auto;
+        padding-top:5%
     }
 
     .project-header {

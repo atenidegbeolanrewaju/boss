@@ -263,8 +263,9 @@
  } 
 
  @media (max-width: 1300px) {
-  .Nav-container {
-    /* opacity: 0.5; */
-    position: relative
-  }
+  
+section{
+  padding-top:2.5rem
+}
+  
  }

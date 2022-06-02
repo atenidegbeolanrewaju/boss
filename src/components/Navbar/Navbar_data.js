@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css'
 
 const data = [
@@ -15,18 +15,8 @@ const data = [
     },
     {
         id: 3,
-        menu: 'Team',
-        page: '/Team'
-    },
-    {
-        id: 4,
-        menu: 'Tokenomics',
-        page: '/Tokenomics'
-    },
-    {
-        id: 5,
-        menu: 'Whitepaper',
-        page: '/Whitepaper'
+        menu: 'Story',
+        page: '/Story'
     }
 ]
 
@@ -44,7 +34,16 @@ function Navbar_menu() {
                     </NavLink>
                 </li>
             ))}
-           
+            <li className='Nav-social'>
+                <Link to='/' className='Nav-link'>
+                    Whitepaper
+                </Link>
+            </li>
+            <li className='Nav-social'>
+                <Link to='/' className='Nav-link'>
+                    Staking
+                </Link>
+            </li>
         </div>
     )
 

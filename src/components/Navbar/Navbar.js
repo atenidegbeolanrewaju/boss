@@ -22,18 +22,18 @@ const Navbar = () => {
             </Link>
         </li>
         <li className='Nav-social'>
-            <Link to='/Team' className='Nav-link' onClick>
+            <Link to='/Story' className='Nav-link' onClick>
                 Team
             </Link>
         </li>
         <li className='Nav-social'>
-            <Link to='/Tokenomics' className='Nav-link' onClick>
-                Tokenomics
+            <Link to='/' className='Nav-link' onClick>
+                Whitepaper
             </Link>
         </li>
         <li className='Nav-social'>
-            <Link to='/whitepaper' className='Nav-link' onClick>
-                Whitepaper
+            <Link to='/' className='Nav-link' onClick>
+              Staking
             </Link>
         </li>
       </ul>
